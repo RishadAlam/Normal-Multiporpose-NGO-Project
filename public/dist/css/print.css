@@ -1,0 +1,103 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Roots */
+:root
+{
+    /* Colors */
+    --body_color: 
+    --sidebar_color: rgba(255,255,255,.2);
+    --primary_color: #695cfe;
+    --primary-color-light: #f6f5ff;
+    --toggle-color: #ddd;
+    --text-color: #ddd;
+    --text-secondery : #686767;
+
+    /* Transition */
+    --tran-03: all 0.3s ease-in-out;
+    --tran-04: all 0.4s ease-in-out;
+    --tran-05: all 0.5s ease-in-out;
+
+    /* Font family */
+    --font: 'Poppins', sans-serif;
+
+    /* Blur */
+    --blur: blur(10px);
+}
+
+/* Common CSS */
+body
+{
+    font-family: 'Roboto', Arial, sans-serif !important;
+    /* font-family: 'Poppins', sans-serif; */
+    background: #fff;
+
+    font-size: 12px;
+    font-weight: 400;
+}
+.img>img
+{
+    width: 100%;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p,span,a
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+    color: var(--text-color);
+}
+a:hover
+{
+    color: var(--primary_color);
+}
+ul, ol
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.logo
+{
+    width: 80px;
+    margin-left: auto;
+}
+.logo>.img>img
+{
+    
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* Content CSS */
+
+#sheetHeader
+{
+    margin: 8px 0;
+}
+#sheetHeader h5
+{
+    font-size: 12px;
+}
+#sheetHeader h2
+{
+    font-size: 20px;
+}
+#sheetHeader h3
+{
+    font-size: 16px;
+}
+#sheetHeader h4
+{
+    font-size: 14px;
+}
