@@ -377,8 +377,9 @@
                                 </div>
                                 <div class="col-md-12 mb-3">
                                     <div class="input-form">
-                                        <label for="Present_address" class="form-label">Present Address</label>
-                                        <textarea class="form-control" id="Present_address" cols="30" rows="3" readonly></textarea>
+                                        {{-- <label for="Present_address" class="form-label">Present Address</label> --}}
+                                        {{-- <textarea class="form-control" id="Present_address" cols="30" rows="3" readonly></textarea> --}}
+                                        <p id="Present_address"></p>
                                     </div>
                                 </div>
                             </div>
@@ -393,8 +394,9 @@
                                 </div>
                                 <div class="col-md-12 mb-3">
                                     <div class="input-form">
-                                        <label for="permanent_address" class="form-label">Permanent Address</label>
-                                        <textarea class="form-control" id="permanent_address" cols="30" rows="3" readonly></textarea>
+                                        {{-- <label for="permanent_address" class="form-label">Permanent Address</label> --}}
+                                        {{-- <textarea class="form-control" id="permanent_address" cols="30" rows="3" readonly></textarea> --}}
+                                        <p id="permanent_address"></p>
                                     </div>
                                 </div>
                             </div>
